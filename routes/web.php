@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/addProdec',[ProductController::class, 'displayProduct']);
-Route::post('/addProdec',[ProductController::class, 'addProduct']);
+Route::get('/addProduct',[ProductController::class, 'displayProduct']);
+Route::post('/addProduct',[ProductController::class, 'addProduct']);
