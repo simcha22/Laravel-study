@@ -13,7 +13,7 @@
     <header>
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" href="#">הוסף מוצר</a>
+                <a class="nav-link active" href="{{url('/addProduct')}}">הוסף מוצר</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">מוצרים</a>
