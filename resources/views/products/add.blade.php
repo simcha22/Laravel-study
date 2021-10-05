@@ -10,7 +10,8 @@
         </ul>
     </div>
     @endif
-    <form method="POST" action="{{url('/addProdect')}}">
+    <form method="POST" action="{{url('addProdect')}}">
+        @csrf
         <div class="mb-3">
             <label for="name" class="form-label">שם המוצר:</label>
             <input type="text" class="form-control" id="name" placeholder="name" name="name">
